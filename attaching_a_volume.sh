@@ -25,7 +25,8 @@ UUID=4a1c93d9-eb47-4f96-9f3d-920e52dc8cca /                       xfs     defaul
 /dev/xvdf1     /data2  ext4 defaults 0 0
 ##########################################################
 
-mount -a
 df -h
+mount -a
+df -h   #check the differences
 ll /data2
 chmod 775 /data2/
