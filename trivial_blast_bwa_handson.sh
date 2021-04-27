@@ -44,6 +44,11 @@ time blastn -db /data/BDP1_2021/hg19/entire_hg19BLAST -query myread.fa -out blas
 less blast_myread.out
 ###############################################################################
 
+# Note: try to immediately repeat the command and not the differences
+# you can also try the same excercise issuing this command between the two blastn runs:
+#       sync; echo 1 > /proc/sys/vm/drop_caches
+# this command drop the memory caches used by the kernel to limit disk access
+
 
 ############### BWA #####################
 #########################################
