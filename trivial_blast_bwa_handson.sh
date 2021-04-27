@@ -65,7 +65,7 @@ cd bwa-0.7.15/
 make 
 
 # use your own bwa installation ###########
-export PATH=$PATH:/yuor_path/bwa-0.7.15/
+export PATH=$PATH:/your_path/bwa-0.7.15/
 ###########################################
 
 ############  BWA Istallation Completed #############################
