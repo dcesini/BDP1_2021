@@ -90,3 +90,10 @@ dav:/webdav/> exit
 
 
 # Repeat the exercise having the client installed on your laptop, or use your browser (hint: open port 80)
+
+#NOTE: 
+# You can only access specific files with a browser with WebDAV, like : https://domain/webdav/folder1/test.pdf
+#It's not like an FTP server where you can browse inside your folders.
+#If you want to browse your folders with your browser, you might need a WebDAV browser plugin.
+#Why ? because the browser is using classic HTTP methods and WebDAV is an extension of it with more methods.
+#The browser might not be compatible with those extension methods like PROPFIND.
