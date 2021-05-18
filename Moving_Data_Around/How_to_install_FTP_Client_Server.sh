@@ -66,4 +66,5 @@ exit #or CTRL+D
 ##############################################################
 ##############################################################
 
-# Now repeat the transfer from a machine outside the securiyt group, i.e. your laptop or a VM on another security group
+# Now repeat the transfer from a machine outside the securiyt group, i.e. your laptop or a VM on another security group - hint at lease port 20 and 21 sshould be accessible
+#more info on ftp ports: https://www.jscape.com/blog/bid/80512/active-v-s-passive-ftp-simplified
