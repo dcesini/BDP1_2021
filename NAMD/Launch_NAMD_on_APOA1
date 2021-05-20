@@ -1,4 +1,4 @@
-wget https://www.ks.uiuc.edu/Research/namd/utilities/apoa1.tar.gz
+wget --no-check-certificate https://www.ks.uiuc.edu/Research/namd/utilities/apoa1.tar.gz
 tar -xvzf apoa1.tar.gz
 ll
 cd apoa1/
