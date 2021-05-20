@@ -4,6 +4,7 @@
  
 yum install openmpi-devel.x86_64
 yum install csh
+yum install gcc-c++
  
 export PATH=$PATH:/usr/lib64/openmpi/bin/
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib64/openmpi/lib/
