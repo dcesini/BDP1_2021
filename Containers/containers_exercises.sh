@@ -57,6 +57,7 @@ docker search ubuntu
 docker pull ubuntu
 docker run ubuntu echo "hello from the container"
 docker run -i -t  ubuntu /bin/bash
+#### now you are in a shell running inside the container, remeber to exit to go back in the host shell: type exit or Ctrl+D
 docker images
 time docker run ubuntu echo "hello from the container"
 docker run ubuntu ping www.google.com
