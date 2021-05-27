@@ -3,7 +3,23 @@
 ####################################
 
 #install the docker repo
-yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+vim /etc/yum.repos.d/docker-ce.repo
+#####################################################
+##########   Add the following content in the docker-ce-repo file:
+
+[docker-ce-stable]
+name=Docker CE Stable - x86_64
+baseurl=https://download.docker.com/linux/centos/7/x86_64/stable
+enabled=1
+gpgcheck=1
+gpgkey=https://download.docker.com/linux/centos/gpg
+
+[centos-extras]
+name=Centos extras - x86_64
+baseurl=http://mirror.centos.org/centos/7/extras/x86_64
+enabled=1
+gpgcheck=0
+#############################################################
 
 #install the epel repo
 wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
