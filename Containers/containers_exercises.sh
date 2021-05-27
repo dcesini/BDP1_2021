@@ -202,7 +202,7 @@ docker system prune
 
 
 ###########################################################################
-###########  EXAMPLE: Dockerfile to create a cnetos7 blast enabled image
+###########  EXAMPLE: Dockerfile to create a centos7/rhel7.6 blast enabled image
 ###############################   and run it with mapped directories
 ##########################################################################
 
