@@ -68,6 +68,7 @@ docker ps -a
 docker images
 docker commit <get the container ID using docker ps -a> ubuntu_with_ping
 docker images
+docker run ubuntu_with_ping ping www.google.com
 docker system df
 docker system prune
 docker images
