@@ -29,8 +29,7 @@ yum localinstall epel-release-latest-7.noarch.rpm
 
 #install dependencies (maybe more will be needed, check for errors)
 yum install yum-utils device-mapper-persistent-data lvm2
-wget http://mirror.centos.org/centos/7/extras/x86_64/Packages/container-selinux-2.107-3.el7.noarch.rpm
-yum localinstall container-selinux-2.107-3.el7.noarch.rpm
+yum install container-selinux
 
 # install docker
 yum install docker-ce docker-ce-cli containerd.io
