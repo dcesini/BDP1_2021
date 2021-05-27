@@ -1,6 +1,8 @@
-####################################
-####### INSTALL DOCKER
-####################################
+#######################################
+####### INSTALL DOCKER on a RHEL7.6 VM 
+#######################################
+#install vim and wget
+yum install vim wget
 
 #install the docker repo
 vim /etc/yum.repos.d/docker-ce.repo
